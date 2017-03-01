@@ -5,9 +5,10 @@
 ############################################################
 
 # Daniele Ferraretto
-# Add in purpose of this script
+# This script is aimed to have me learning this git hub misterious thing
 
-# Libraries ----
+# Libraries --
+library(ggplot2)
 
 # Functions ----
 # This is a ggplot function for a nice clean theme
@@ -29,9 +30,13 @@ theme.clean <- function(){
           legend.position=c(0.9, 0.9))
 }
 
-# Load data ----
+# Load data  temp_elevation
+
+temp_elevation <- read.csv("~/PhD-local_repo/CC-7-Github/temp_elevation.csv")
 
 # Make a plot showing how soil temperature changes with elevation ----
+
+ggplot(temp_elevation, aes(Elevation.m, Soil.temp.mean)) + geom_point()
 
 # Save your plot in your project directory
 
