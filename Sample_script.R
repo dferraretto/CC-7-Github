@@ -4,7 +4,7 @@
 #                                                          #
 ############################################################
 
-# Add in your name
+# Daniele Ferraretto
 # Add in purpose of this script
 
 # Libraries ----
